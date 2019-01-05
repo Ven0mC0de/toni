@@ -1,0 +1,12 @@
+apt-get install wget
+#
+sudo mkdir /usr/local/tonido
+#
+cd /usr/local/tonido
+#
+cd /usr/local/tonidosudo wget http://www.tonido.com/download.php?tonido64.tar.gz
+#
+sudo tar -zxvf tonido64.tar.gz
+#
+./tonido.sh start
+#
